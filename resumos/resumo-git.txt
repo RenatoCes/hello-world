@@ -1,6 +1,7 @@
 git add <>
 git status
 git log 
-git restore <>
+git restore pasta
 git commit -m""
 git commit --amend -m"" 
+git reset --soft/hard/mixed hash-do-commit
