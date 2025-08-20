@@ -4,13 +4,19 @@ git log
 git restore pasta
 git commit -m""
 git commit --amend -m"" 
-git reset --soft/hard/mixed hash-do-commit
+git reset --soft/hard/mixed hash_do_commit
 git reflog
 git pull
 git push
 git checkout -b nome-da-branche-nova
-git checkout nome-da-branche-que-quer-ir
-git merge nome-da-branche
+git checkout nome_da_branche_que_quer_ir
+git merge nome_da_branche
 git branch
-git branch -d nome-da-branch-que-sera-deletada
+git branch -d nome_da_branch_que_sera_deletada
 git push origin main
+git fetch origin main_ou_outra
+git clone URL --brach_desejada_clonar --single-branch
+git stash
+git stash list
+git stash pop
+git stash apply
