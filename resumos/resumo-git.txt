@@ -10,3 +10,7 @@ git pull
 git push
 git checkout -b nome-da-branche-nova
 git checkout nome-da-branche-que-quer-ir
+git merge nome-da-branche
+git branch
+git branch -d nome-da-branch-que-sera-deletada
+git push origin main
