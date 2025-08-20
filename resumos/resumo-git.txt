@@ -8,3 +8,5 @@ git reset --soft/hard/mixed hash-do-commit
 git reflog
 git pull
 git push
+git checkout -b nome-da-branche-nova
+git checkout nome-da-branche-que-quer-ir
