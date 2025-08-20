@@ -15,7 +15,8 @@ git branch
 git branch -d nome_da_branch_que_sera_deletada
 git push origin main
 git fetch origin main_ou_outra
-git clone URL --brach_desejada_clonar --single-branch
+git clone URL --brach nome_da_branch_que_desejada_clonar --single-branch
+git clone URL -b nome_da_branch_que_desejada_clonar --single-branch
 git stash
 git stash list
 git stash pop
